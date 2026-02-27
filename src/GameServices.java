@@ -1,6 +1,6 @@
 import java.util.*;
 public class GameServices {
-    ArrayList<Game> games = new ArrayList<>();
+    static ArrayList<Game> games = new ArrayList<>();
     public GameServices(){
         games.add(new Game("SnowBird","Danny",300));
         games.add(new Game("FreshFood","Ram",450));

@@ -40,6 +40,9 @@ public class DigitalcomProcess implements Ivalidate{
                 System.out.println("Thank you for using our game");
                 break;
             }
+            else{
+                System.out.println("Invalid choice");
+            }
         }
     }
 
@@ -52,3 +55,4 @@ public class DigitalcomProcess implements Ivalidate{
         }return true;
     }
 }
+//hello

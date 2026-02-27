@@ -1,4 +1,4 @@
-public class User {
+public class User{
     private String name;
     private String password;
 
@@ -23,8 +23,4 @@ public class User {
         setPassword(password);
         return this;
     }
-}
-
-interface Ivalidate{
-    boolean isAuthenticated(String username, String password);
 }
